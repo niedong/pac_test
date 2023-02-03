@@ -24,5 +24,5 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
 
     // Eveything else goes through the proxy
-    return "http localhost:10809;";
+    return "PROXY localhost:10809;";
 }
